@@ -18,7 +18,12 @@ services:
       MYSQL_ROOT_PASSWORD: root
 ```
 
+run container
+```terminal
+$ docker-compose up
+```
+
 konek mysql docker via command line
 ```terminal
-mysql --host 127.0.0.1 --protocol=tcp -u root -p
+$ mysql --host 127.0.0.1 --protocol=tcp -u root -p
 ```
