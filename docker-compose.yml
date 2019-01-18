@@ -12,3 +12,5 @@ services:
       - .mysql/init:/docker-entrypoint-initdb.d:cached
     environment:
       MYSQL_ROOT_PASSWORD: root
+    security_opt:
+      - seccomp:unconfined
